@@ -14,7 +14,7 @@ while (c<=5) {
 
 // Задание 3
 let x = 0
-for (x=0; x<30; x++){
+for (x=7; x<=22; x++){
   if (x>=7 && x<=22) 
   console.log(x)
 }
@@ -35,7 +35,7 @@ let n = 1000;
 let num= 0; 
 
 while (n > 50) {
-  n = n / 2;
+  n /= 2;
   num++;
 }
 console.log(`Получилось число ${n}. Число итераций равно ${num}`);
